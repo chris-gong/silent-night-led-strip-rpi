@@ -18,3 +18,5 @@ sudo python3 christmas.py
 
 ## Variables that could change
 A couple things should be mentioned that could require changes in the code. One, if you decide not to use pin 18 on the pi, then set the value appropriately in the variable `LED_PIN` to the pin you do decide to use. Second, our LED strip had 300 LEDs, but if your's does not then set the value appropriately in the variable `LED_COUNT` to the number of LEDs you do decide to use.
+
+Note that you may have to tinker with numbers in lines 46-50 to make it light up to your liking. These lines determine which LEDs light up at each note, so you can experiment and create different and more colorful patterns!
