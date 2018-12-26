@@ -43,11 +43,11 @@ if __name__ == '__main__':
             if(duration < smallestDuration):
                 smallestDuration = duration
                 
-            for z in range(0,10):
+            for z in range(0,50):
                 if hand == 'r':
-                    strip.setPixelColor(150 + (z * 2) + int(ord(note)/2) * int(octave/2),Color(255,0,0))
+                    strip.setPixelColor(150 + (z * 3) + int(ord(note)/2) * int(octave/2),Color(255,0,0))
                 if hand == 'l':
-                    strip.setPixelColor(150 - (z * 2) - int(ord(note)/2) * int(octave/2),Color(255,0,0))
+                    strip.setPixelColor(150 - (z * 3) - int(ord(note)/2) * int(octave/2),Color(255,0,0))
             
             strip.show()
         time.sleep(smallestDuration/1.78)     
