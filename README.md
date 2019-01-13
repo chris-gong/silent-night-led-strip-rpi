@@ -24,3 +24,7 @@ Note that you may have to tinker with numbers in lines 46-50 to make it light up
 
 ## Implementation Video
 https://www.youtube.com/watch?v=CZVQ-xg_SeI
+
+
+## Code Explanation Video
+https://www.youtube.com/watch?v=1r_wxBg0VMM
